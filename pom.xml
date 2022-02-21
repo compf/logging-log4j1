@@ -35,6 +35,10 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
   <version>1.2.17</version>
   <description>Apache Log4j 1.2</description>
   <url>http://logging.apache.org/log4j/1.2/</url>
+<properties>
+  <sonar.organization>compf</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <issueManagement>
     <system>Bugzilla</system>
     <url>https://issues.apache.org/bugzilla/describecomponents.cgi?product=Log4j</url>
